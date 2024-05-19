@@ -1,0 +1,133 @@
+.{
+    width: 90%;
+    align-self: center;
+    font-family: 'Montserrat';
+}
+.categories{
+    display: flex;
+}
+.categories-left{
+    display: flex;
+    flex-direction: column;
+}
+.categories-right{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.meal{
+    display: flex;
+}
+#cook1{
+    width: 462px;
+    height: 507px;
+}
+#cagtegories-title{
+
+    font-size: 60;
+    font-weight: bold;
+    line-height: 78.02px;
+    color: #FF5A11;
+}
+
+.category-item{
+    height: 171px;
+    width: 112px;
+    padding: 3%;
+    margin: 3%;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 55%;
+    border: 2px black;
+    box-shadow: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.category-container{
+    display: flex;
+    flex-direction: row;
+}
+.categories-image{
+    border-radius: 50%;
+}
+.meal-banner{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.meal-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.meal-item{
+    padding: 2%;
+    padding-left: 3%;
+    border-radius: 10px;
+    border-color: #c9c9c9;
+    box-sizing: border-box;
+    box-shadow: #D9D9D9;
+    border-style: solid;
+    box-shadow: 1px 5px 10px 1px #dbdbdb;
+    margin: 12px;
+}
+
+.meal-lower-item{
+    display: flex;
+
+    flex-direction: row-reverse;
+    align-content: flex-end;
+}
+
+i{
+    padding: 3%;
+    margin: 1%;
+    border-radius: 60%;
+    border: #FF5A11;
+    border-style: solid;
+}
+.addup{
+    display: flex;
+    color: #ff5a11;
+    margin:5px;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+.addup-left{
+    padding-left: 10%;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.feature-top{
+    display: flex;
+    padding: 2%;
+    padding-left: 3%;
+    margin: 2%;    
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #171717;
+    padding: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.feature-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
